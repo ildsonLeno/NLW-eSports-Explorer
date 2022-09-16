@@ -37,94 +37,159 @@
 
           → Plataforma online para criação de interfaces profissionais.
   
-- [x] DIA 02 - Descomplicando o Código - 08/08/2022
+- [x] DIA 02 - HTML - Introdução - 12/09/2022
 
-        # HTML
+       - O que é HTML?
 
-Introdução
+           → Estruturar textos, criar links, imagens, vídeo, etc ...
+           → Hypertext Markup Language
 
----
+             -Linguagem de marcação de texto
 
-## O que é HTML?
+       - Hypertext
 
-- Estruturar textos, criar links, imagens, vídeo, etc ...
-- Hypertext Markup Language
-    
-    Linguagem de marcação de texto
-    
+           → Hiper texto
+           → Texto que contém links
 
----
+       - Markup
 
-## Hypertext
+           → Marcação do texto
+           → Elemento HTML ou tag
 
-- Hiper texto
-- Texto que contém links
+             -Existem inúmeras tags e cada uma deles irá servir para um determinado propósito. Ex.: imagem, texto grande, link, parágrafo, etc...
 
----
+       - Sintaxe de uma tag
 
-## Markup
+           → sinal de menor, nome da tag, sinal de maior, conteúdo, sinal de menor, barra, nome da tag, sinal de maior
 
-- Marcação do texto
-- Elemento HTML ou tag
-    
-    Existem inúmeras tags e cada uma deles irá servir para um determinado propósito. Ex.: imagem, texto grande, link, parágrafo, etc...
-    
+             ```html
+             <p>conteúdo</p>
+             ```
 
----
+       - Atributos
 
-## Sintaxe de uma tag
+           → Adicionam informações e configurações à uma tag
+           → Sintaxe
 
-sinal de menor, nome da tag, sinal de maior, conteúdo, sinal de menor, barra, nome da tag, sinal de maior
+             -nome do atributo, sinal de igual, aspas duplas (abre), valor, aspas duplas (fecha)
 
-```html
-<p>conteúdo</p>
-```
 
----
+              ```html
+              <a href="#">link</a>
+              ```
 
-## Atributos
+       - Comentários
 
-- Adicionam informações e configurações à uma tag
-- Sintaxe
-    
-    nome do atributo, sinal de igual, aspas duplas (abre), valor, aspas duplas (fecha)
+           → Ignorar linhas de código
+           → Adicionar informação
+           → Somente acessível por quem coda
 
-- [x] DIA 03 - Como acelerar a sua Evolução - 09/08/2022
+- [x] DIA 03 - CSS - Folha de Estilo em Cascata - 13/09/2022
 
-      - VS Code
-        
-         → Editor de código profissional. 
+      - O que é CSS?
 
-            *https://code.visualstudio.com/
+          → Apresentação visual para o cliente
+          → Estilos para o HTML
+          → Cascading Style Sheets
 
-         → Usar online
+      - Declaration
 
-            *https://vscode.dev/
+          → Declaração
 
-      - Github
-        
-          → O que é?.
-         
-             *Plataforma online para colocar seus códigos
-             *Trabalha com o Git
-             *Versionamento de código
-             *Trabalhar em diversos projetos e times de código
-             *Perfil para mostrar seu trabalho (portfólio)      
-            
-      - Netlify
-            
-          → Plataforma de hospedagem de projetos e criação de links para outras pessoas acessarem.
+             -Pedaço de código que irá ditar as propriedades e valores a serem aplicadas a um elemento HTML
 
-             *https://www.netlify.com/
+      - Sintaxe
 
-          → Geradores de QRCode
+          → Seletor, chave (abre), propriedade, dois pontos, valor, ponto vírgula, chave (fecha)
 
-             *https://br.qr-code-generator.com/
-             *https://qr.io/
-             *https://www.the-qrcode-generator.com/ (não precisa criar conta)
 
-- [ ] DIA 04 - Encerramento aovivo - 10/08/2022
-        
+            ```css
+            body {
+              background: red;
+            }
+            ```
+
+      - Comentários
+
+          → Ignorar parte do código
+          → Adicionar informações que serão visíveis somente pra quem coda
+
+            ```css
+            /* Essa linha será ignorada */
+
+            /*
+            Poderemos ignorar várias
+            linhas de código
+            dessa forma
+            */
+            ```
+
+      - Cascading
+
+          → Cascata
+
+             -Quando há 2 (ou mais) declarações a última será mais relevante
+
+
+              ```css
+              body {
+                background: red;
+              }
+
+              body {
+                background: blue;
+              }
+
+              ```
+
+      - Specificity
+
+          → Especificidade: Cada seletor tem um peso e a soma dos pesos, será levada em conta para que determinada declaração seja mais específica
+
+              ```css
+              #id {
+                /* peso 100 */
+              }
+
+              .class {
+                /* peso 10 */
+              }
+
+              element {
+                /* peso 1 */
+              }
+
+              ```
+
+              > A cascata perde prioridade e é priorizada a especificidade da declaração > 
+
+      - Box Model
+
+          → Tudo são caixas
+
+              Todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão
+
+          → Caixas possuem determinadas propriedades, veja
+
+              Conteúdo, Largura, Altura, Borda, Preenchimento (espaço interno), Espaçamento (espaço externo)
+
+- [x] DIA 04 - GitHub - 14/09/2022
+
+      - O que é ?
+
+          → Plataforma online para colocar seus códigos
+          → Trabalha com o Git
+
+              Versionamento de código
+
+          → Trabalhar em diversos projetos e times de código
+          → Perfil para mostrar seu trabalho (portfólio)
+          
+- [x] DIA 05 - Código da final no Github - 15/09/2022
+      
+      - [https://github.com/maykbrito/nlw-esports-explorer](https://github.com/maykbrito/nlw-esports-explorer)
+
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto;
@@ -137,22 +202,6 @@ As seguintes ferramentas foram usadas na construção do projeto;
 <p align="center">
   <a>
     <img width="800" src="https://github.com/ildsonLeno/MaratonaExplorer3.0/blob/master/assets/DIA%201.jpg?raw=true">
-  </a>
-</p>
-
-<h2 align="center">Screenshot - Descomplicando o Código - DIA 02 </h2>
-
-<p align="center">
-  <a>
-    <img width="800" src="https://github.com/ildsonLeno/MaratonaExplorer3.0/blob/master/assets/DIA%202.jpg?raw=true">
-  </a>
-</p>
-
-<h2 align="center">Screenshot - Como acelerar a sua Evolução - DIA 03 </h2>
-
-<p align="center">
-  <a>
-    <img width="800" src="https://github.com/ildsonLeno/MaratonaExplorer3.0/blob/master/assets/DIA%203.jpg?raw=true">
   </a>
 </p>
 
