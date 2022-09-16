@@ -1,4 +1,4 @@
-<h1 align="center">Next Level Week / Trilha Explorer- eSports by Rocketseat</h1>
+<h1 align="center">Next Level Week / Trilha Explorer - eSports by Rocketseat</h1>
 <h2 align="center">Projeto criado durante a NLW da @Rocketseat</h2>
 
 ### - Concluído !
