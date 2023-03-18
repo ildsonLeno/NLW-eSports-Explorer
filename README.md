@@ -185,7 +185,7 @@
           → Trabalhar em diversos projetos e times de código
           → Perfil para mostrar seu trabalho (portfólio)
           
-- [x] DIA 05 - Código da final no Github - 15/09/2022
+- [x] DIA 05 - Código original final no Github do Mayk Brito- 15/09/2022
 
    - [NLW-Esports-Explorer](https://github.com/maykbrito/nlw-esports-explorer)
 
